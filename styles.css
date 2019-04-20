@@ -13,7 +13,7 @@ img {
 }
 
 .main-content {
-    background-image: url("/img/jacob_home.jpg");
+    background-image: url("img/jacob_home.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

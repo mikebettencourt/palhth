@@ -4,7 +4,20 @@ body {
 
 .main-content {
     background-image: url("/img/jacob_home.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    opacity: .85;
 
     height: 100vh;
+}
+
+.title-container {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    color: white;
 }

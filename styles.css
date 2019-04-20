@@ -7,6 +7,11 @@ body {
     animation: fadein 3s;
 }
 
+img {
+    height: 40px;
+    width: 40px;
+}
+
 .main-content {
     background-image: url("/img/jacob_home.jpg");
     background-repeat: no-repeat;
@@ -42,7 +47,7 @@ body {
 }
 
 .social-nav-link {
-    padding: 0 2rem;
+    padding: 0 0 1rem 1rem;
     letter-spacing: 5px;
 }
 

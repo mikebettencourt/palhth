@@ -1,5 +1,10 @@
 body {
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+
     margin: 0;
+
+    animation: fadein 3s;
 }
 
 .main-content {
@@ -7,17 +12,62 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    opacity: .85;
+    opacity: .9;
 
     height: 100vh;
 }
 
+.top-nav {
+    display: flex;
+    float: right;
+}
+
+.top-nav-link {
+    color: white;
+    padding: 2rem 2rem 0 0;
+    letter-spacing: 5px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.social-nav {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    text-align: center;
+
+    color: white;
+}
+
+.social-nav-link {
+    padding: 0 2rem;
+    letter-spacing: 5px;
+}
+
 .title-container {
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
 
     color: white;
+
+    border: 2px white solid;
+}
+
+.band-name {
+    padding: 2rem;
+    letter-spacing: 3px;
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
 }
